@@ -1,0 +1,38 @@
+body{
+  display: grid;
+  background-color: black;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 6px;
+}
+/* Estilo para as linhas */
+.subtitulo {
+  background-color:rgb(43, 43, 41);
+  padding: 5px;
+  color: #9ddda0;
+  font-family: 'Jost', sans-serif;
+}
+/* Estilo para a primeira linha (cabeçalho) */
+.titulo {
+  grid-column: span 2; /* Ocupa duas colunas */
+  background-color: rgb(43, 43, 41);
+  padding: 5px;
+  color:#9ddda0;
+  font-family: 'Jost', sans-serif;
+}
+h3{
+  color: yellow;
+}
+h2{
+  color: yellow;
+}
+.descricao{
+ color:white;
+ font-family: 'Jost', sans-serif;
+}
+p{
+  margin-left: 80%;
+}
