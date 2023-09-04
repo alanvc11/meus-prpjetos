@@ -8,16 +8,15 @@ body{
   grid-template-columns: auto auto;
   grid-gap: 6px;
 }
-/* Estilo para as linhas */
 .subtitulo {
   background-color:rgb(43, 43, 41);
   padding: 5px;
   color: #9ddda0;
   font-family: 'Jost', sans-serif;
 }
-/* Estilo para a primeira linha (cabeçalho) */
+
 .titulo {
-  grid-column: span 2; /* Ocupa duas colunas */
+  grid-column: span 2; 
   background-color: rgb(43, 43, 41);
   padding: 5px;
   color:#9ddda0;
